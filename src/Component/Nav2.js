@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import './css.css'
+
 import { Navbar, Nav} from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
@@ -28,7 +28,7 @@ class Nav2 extends Component {
 
   render() {
     return (
-      <div className="navmain">
+      <div>
 
 
      
@@ -37,24 +37,21 @@ class Nav2 extends Component {
         <Navbar expand="lg" id="navmain">
 
 
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="/" id='logcolor'  ><img src={require('../img/log1.png')} id='navlogo' alt='img' /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
 
             </Nav>
           <div id='navcompone'  >
-              <NavLink to="/" id="contact">Home</NavLink>
+            <div id='contact'>
+              <NavLink to="/Home" >Home</NavLink></div>
           
-
-         
+              <div id='contact'>
+              <NavLink to="/Contact" > Contact</NavLink></div>
            
-              <NavLink to="/About" id="contact">  About </NavLink> 
- 
-            
-                <NavLink to="/Contact" id="contact">Contact</NavLink>
-         
-                {/* <NavLink to="/Blog" id="contact">Blog</NavLink> */}
+              <NavLink to="/About" >  About </NavLink> 
+                <NavLink to="/Profile" > Arabic</NavLink>
                 </div>
 
           </Navbar.Collapse>

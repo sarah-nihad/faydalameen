@@ -1,19 +1,18 @@
 import React ,{Component} from 'react';
 import Nav2 from './Component/Nav2'
 import './App.css';
-import Slide1 from './Component/Slide1';
-import{ BrowserRouter , Route} from 'react-router-dom';
-import Styl1 from './Component/Style1';
-// import axios from 'axios';
 
-import News from './Component/News';
-import Testdrive from './Component/Testdrive';
-import Test from './Component/Test';
+import{ BrowserRouter , Route,Switch} from 'react-router-dom';
+// import Styl1 from './Component/Style1';
+// import axios from 'axios';
+import Home from './Component/Home';
+// import Main from './Component/Main';
 import Contact from './Component/Contact';
 import Foot1 from './Component/Foot1';
 import Blog from './Component/Blog';
 import About from './Component/About';
-import Slidecomp from './Component/Slidecomp';
+import Profile from './Component/Profile';
+
 class App extends Component {
   constructor () {
     super();
@@ -27,18 +26,18 @@ class App extends Component {
     render(){
       return(
 <BrowserRouter>
-        <div>
+        <div id='appborder'   >
+          <div id='foot'>
   <Nav2 />
- <Route exact path ='/' component ={Slide1} />
- <Route exact path ='/' component ={Test} />
- <Route exact path ='/' component ={News} />
- {/* <Route exact path ='/' component ={Styl1} /> */}
- <Route exact path ='/' component ={Testdrive} />
- <Route exact path ='/' component ={Slidecomp} />
- <Route exact path ='/Contact' component ={Contact} />
- <Route exact path ='/Blog' component ={Blog} />
- <Route exact path ='/About' component ={About} />
- 
+  <Switch>
+  <Route exact path ='/' component ={Home} /> 
+  <Route exact path ='/Home' component ={Home} /> 
+ <Route  path ='/Contact' component ={Contact} />
+ <Route  path ='/Blog' component ={Blog} />
+ <Route  path ='/About' component ={About} />
+ <Route  path ='/Profile' component ={Profile} />
+ </Switch>
+ </div>
  <Foot1 />
         </div>
 

@@ -1,94 +1,95 @@
-import React ,{Component} from 'react';
+import React, { Component } from 'react';
 import './css.css';
-import {Row , Col } from 'react-bootstrap';
-class Test extends Component{
-    render(){
-        return(
-            <div id='test'>
-<Row style={{marginRight:0}}>
-    <Col xs={12} md={6}>
+import { Row, Col } from 'react-bootstrap';
+class Test extends Component {
+    render() {
+        return (
+            <div id='test' style={{backgroundColor:'#434245'}}>
+                <Row style={{ marginRight: 0,paddingTop:'56px',paddingBottom:'25px',paddingLeft:'50px',paddingRight:'50px',
+            backgroundColor:'#434245' }}>
+                    <Col xs={12} md={6} id='hovercol'  >
 
-                <div id='box'>
-<div id='cont'>
-    <div>
-        <h2>Mauris fermeum dictum magn</h2>
-        <p>
-Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curs elfend elit.
+                        <div id='box'>
+                            <div id='cont'>
+                                <div>
+                                    <div>Mauris fermeum dictum magn</div>
+                                    <p>
+                                        Mauris fermeum dictum magna. Sed loreet aliquam leote llus dolor dapibus eget elementum vel curs elfend elit.
  Aenean aucto. wisi et urna. Aliqat volutpatuisac turpis.</p>
-        <a href="#">Read more</a>
-    </div>
-    <img src={require('../img/car5.jpg')} alt='img' />
-</div>
+                                    {/* <a href="./Blog">Read more</a> */}
+                                </div>
+                                <img src={require('../img/f1.jpg')} alt='img' />
+                            </div>
 
-                </div>
+                        </div>
 
-                </Col>
-                <Col  xs={12} md={6}>
-                
-                <div id='box'>
-<div id='cont'>
-    <div>
-        <h2>Sed laoreet leo.</h2>
-        <p>
-Mauris fermeum dictum magna.
+                    </Col>
+                    <Col xs={12} md={6}>
+
+                        <div id='box'>
+                            <div id='cont'>
+                                <div>
+                                    <div>Sed laoreet leo.</div>
+                                    <p>
+                                        Mauris fermeum dictum magna.
  Sed loreet aliquam leote llus dolor dapibus eget elementum vel curs elfend elit.</p>
-        <a href="#">Read more</a>
-    </div>
-    <img src={require('../img/car6.jpg')} alt='img' />
-</div>
+                                    {/* <a href="./Blog">Read more</a> */}
+                                </div>
+                                <img src={require('../img/f2.jpg')} alt='img' />
+                            </div>
 
-                </div>
-                
-                </Col>
-    </Row>
-  
-    <Row style={{marginRight:0}}>
-        <Col xs={12} md={4}>
-        <div id='box'>
-<div id='cont'>
-    <div>
-        <h2>Sed laoreet leo.</h2>
-        <p>
-Mauris fermeum dictum magna.
+                        </div>
+
+                    </Col>
+                </Row>
+
+                <Row style={{ marginRight: 0 ,paddingTop:'10px',paddingLeft:'50px',paddingRight:'50px',paddingBottom:'50px'}}>
+                    <Col xs={12} md={4} id='hovercol'  >  
+                        <div id='box'>
+                            <div id='cont'>
+                                <div>
+                                    <div>Sed laoreet leo.</div>
+                                    <p>
+                                        Mauris fermeum dictum magna.
  Sed loreet aliquam leote llus dolor dapibus eget elementum vel curs elfend elit.</p>
-        <a href="#">Read more</a>
-    </div>
-    <img src={require('../img/car4.jpg')} alt='img'  />
-</div>
+                                    {/* <a href="./Blog">Read more</a> */}
+                                </div>
+                                <img src={require('../img/f3.jpg')} alt='img' />
+                            </div>
 
-                </div>
-        </Col>
-        <Col  xs={12} md={4}>
-        <div id='box'>
-<div id='cont'>
-    <div>
-        <h2>Sed laoreet leo.</h2>
-        <p>
-Mauris fermeum dictum magna.
+                        </div>
+                    </Col>
+                    <Col xs={12} md={4} id='hovercol'     >
+                        <div id='box'>
+                            <div id='cont'>
+                                <div>
+                                    <div>Sed laoreet leo.</div>
+                                    <p>
+                                        Mauris fermeum dictum magna.
  Sed loreet aliquam leote llus dolor dapibus eget elementum vel curs elfend elit.</p>
-        <a href="#">Read more</a>
-    </div>
-    <img src={require('../img/car3.jpg')} alt='img'  />
-</div>
+                                    {/* <a href="./Blog">Read more</a> */}
+                                </div>
+                                <img src={require('../img/f4.jpg')} alt='img' />
+                            </div>
 
-                </div>
-        </Col>
-        <Col  xs={12} md={4}>
-        <div id='box'>
-<div id='cont'>
-    <div>
-        <h2>Sed laoreet leo.</h2>
-        <p>
-Mauris fermeum dictum magna.
+                        </div>
+                    </Col>
+                    <Col xs={12} md={4}  id='hovercol'     >
+                        <div id='box'>
+                            <div id='cont'>
+                                <div>
+                                    <div>Sed laoreet leo.</div>
+                                    <p>
+                                        Mauris fermeum dictum magna.
  Sed loreet aliquam leote llus dolor dapibus eget elementum vel curs elfend elit.</p>
-        <a href="#">Read more</a>
-    </div>
-    <img src={require('../img/car2.jpg')} alt='img'   />
-</div>
+                                    {/* <a href="./Blog">Read more</a> */}
+                                </div>
+                                <img src={require('../img/f7.jpg')} alt='img' />
+                            </div>
 
-                </div>
-                </Col>
-    </Row>
+                        </div>
+                    </Col>
+                </Row>
             </div>
         )
     }

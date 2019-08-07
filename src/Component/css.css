@@ -32,18 +32,49 @@
     font-weight: 500;
     line-height: 30px;
   }
+  #appborder{
+    background-color: #333235;
+    margin: 0 auto  auto auto;
+    max-width: 1530px;
+    padding-top: 30px;
+  }
+  #slidcomimg1{
+    height: 350px;
+    width: 95%;
+  }
+  #logcolor{
+    background-color: rgb(243, 243, 243);
+    min-height: 80px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   #navcompone{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 35%;
+    width: 26%;
     color: #fff;
+    padding-right: 5px;
   }
 
 #historysss{
+ 
   font-size: 14px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
+#contactfot{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
   #sarslide{
     height: 20px;
@@ -79,8 +110,10 @@ display: flex;
 /* align-items: center; */
   }
   #navmain{
-    background-color: #434245;
+    background-color: #F3F3F3;
     color: #fff;
+    min-height: 80px;
+    padding: 0px;
   }
 #abr{
   background-color: #434245;
@@ -95,13 +128,16 @@ display: flex;
   width: 100%;
 }
 #img1{
-  height:300px ;
+  height:256px ;
   width: 100%;
  
 }
-#m1{
-  background-color: #4C4B4E;
+#imgnew{
+  height: 216px;
+  width: 100%;
+  padding-bottom: 15px;
 }
+
 #new{
   display: flex;
   flex-direction: column;
@@ -132,32 +168,97 @@ display: flex;
   font-weight: 500;
 }
 #dd{
- 
+ padding-top: 3%;
+ padding-bottom: 3%;
   color: white;
   font-size: 72px;
   line-height: 75px;
   font-weight: 500;
 }
+#foot{
+  min-height: calc(100vh - 30px);
+}
 #col1{
- padding-left: 100px;
+ padding-left: 80px;
+}
+#navlogo{
+  height: 50px;
+}
+#colomnservices12{
+  height: 290px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+margin: 0px;
+}
+#colomnservices1{
+  height: 290px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+margin: 0px;
+}
+#divcolss{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 246px;
+  width:100%;
+  padding: 0px;
+  margin: 0px;
+  border-right: 1px solid gray;  
+ 
+ 
+}
+#rroo{
+  margin: 0px;
+  padding: 0px;
 }
 #rowcar{
-  /* background-image: url('car4.jpg'); */
+  background-image: url('../img/5.jpg');
   height:400px;
   background-size: cover;
  background-repeat: no-repeat;
  display: flex;
+width: 100%;
+ /* justify-content: center; */
+ align-items: center;
+ padding: 0px;
+ margin: 0px;
+}
+#p2{
+  display: flex;
 
  justify-content: center;
  align-items: center;
-
-}
-#p2{
- 
   color: white;
   font-size: 13px;
   line-height: 20px;
   font-weight: 400;
+}
+#p2ss{
+  display: flex;
+
+ justify-content: center;
+ align-items: center;
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+
+.slider-control-centerright button{
+  display: none;
+}
+.slider-control-centerleft button{
+  display: none;
+}
+#ooimage{
+  height: 30px;
 }
 #row{
   width: 90%;
@@ -169,23 +270,7 @@ display: flex;
   position:relative;
   animation:dir_change 10s infinite ;
  }
- @keyframes dir_change{
-  0%{
-   background-color:red;
-   top:0px;
-   left:0px;
-  }
- 
-  50%{
-   background-color:red;
- 
-   left:50px;
-  }
- 100%{
-  display: none;
-  left:400px;
-  }
- }
+
 
  #section1{
   width:150px;
@@ -194,23 +279,7 @@ display: flex;
   position:relative;
   animation:dir_change1 10s infinite ;
  }
- @keyframes dir_change1{
-  0%{
-   background-color:rgb(49, 0, 128);
-   top:0px;
-   left:0px;
-  }
  
-  50%{
-   background-color:rgb(89, 0, 255);
- 
-   left:50px;
-  }
- 100%{
-  display: none;
-  left:400px;
-  }
- }
  #section2{
   width:150px;
   height:200px;
@@ -218,27 +287,11 @@ display: flex;
   position:relative;
   animation:dir_change2 10s infinite ;
  }
- @keyframes dir_change2{
-  0%{
-   background-color:green;
-   top:0px;
-   left:0px;
-  }
- 
-  50%{
-   background-color:rgb(0, 255, 21);
- 
-   left:50px;
-  }
- 100%{
-  display: none;
-  left:450px;
-  }
- }
+
  #box{
    position: relative;
    width: 100%;
-   height: 300px;
+   height: 20vw;
    background: #000;
  }
  #cont{
@@ -249,7 +302,6 @@ display: flex;
    bottom: 0;
    display: grid;
    align-items: center;
-  
    color: #f1f1f1;
    padding: 20px;
    text-align: center;
@@ -265,17 +317,18 @@ display: flex;
  #cont a:hover{
    color: #000;
    background: #fff;
+   cursor: pointer;
  }
  #box img{
    position: absolute;
    top: 0;
    left: 0;
    width: 100%;
-   height: 300px;
+   height: 20vw;
    object-fit: cover;
    -webkit-clip-path: polygon(0 0,100% 0,100% 100%,0% 100%);
    clip-path: polygon(0 0,100% 0,100% 100%,0% 100%);
-   transition:  1s;
+   transition: 0.5s;
  }
  #contact{
   color: #fff;
@@ -286,6 +339,7 @@ display: flex;
  #box:hover img{
   -webkit-clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
   clip-path: polygon( 0 0, 100% 0, 0 0, 0% 100%);
+  cursor: pointer;
  }
  #test{
  padding: 20px 20px 20px 20px;
@@ -316,7 +370,7 @@ display: flex;
  #gmap_canvas{
   /* position:relative; */
   text-align:right;
-  height:300px;
+  height:356px;
   width:100%;
   overflow:hidden;
   background:none;
@@ -329,17 +383,46 @@ display: flex;
  }
  #why{
    padding-top: 40px;
+   font-size: 33px;
  }
  #rowabout{
    width: 90%;
    padding-top: 20px;
+   direction: rtl;
+ }
+ #rowabout1{
+  width: 100%;
+  padding-top: 20px;
+  
+}
+ #rowaboutarab{
+  width: 90%;
+  padding-top: 20px;
+  direction: rtl;
+ }
+ #colarab{
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   width: 100%;
  }
  #p13{
-   font-size: 13px;
+   font-size: 17px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
  }
  #pabout{
-   font-size: 13px;
+   font-size: 17px;
    padding-top: 10px;
+   width: 100%;
+  min-height: 80px;
+   display: flex;
+   align-items: center;
+   /* justify-content:flex-start; */
+   direction: rtl;
+   margin: 0px;
+   padding: 0px;
  }
  #mainabout{
    background-color: rgb(62, 62, 63);
@@ -421,7 +504,19 @@ z-index: 1;
    width: 90%;
    margin: 0;
    padding: 0;
-   padding-top: 40px;
+   padding-top: 20px;
+ }
+ #contactrow2{
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+ }
+ #contactrow3{
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
  }
  #contacthome{
    background-color: #4C4B4E;
@@ -447,7 +542,7 @@ margin: 0;
   padding: 0;
   margin: 0;
    padding-top: 40px;
-   padding-bottom: 40px;
+   /* padding-bottom: px; */
    /* padding-left: 40px; */
  }
  #follow{
@@ -464,16 +559,55 @@ margin: 0;
  /* margin-top: 20px; */
 }
  #h3copy{
+   display: flex;
+   align-items: center;
+   justify-content: center;
    border-bottom: 1px solid rgb(134, 133, 133);
-   width: 50%;
+   width: 30%;
    padding-bottom: 10px;
  }
+ #h3copy3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(134, 133, 133);
+  width: 50%;
+  padding-bottom: 10px;
+}
  #rowfot{
    width: 90%;
  padding: 0;
  margin: 0;
- padding-top: 70px;
- padding-bottom: 20px;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+
+ }
+ #ffffff{
+   display: flex;
+   align-items: center;
+   /* justify-content: space-around; */
+   width: 100%;
+   padding-bottom: 3%;
+ }
+ #ffffff1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 65%;
+  padding-top: 20px;
+  font-size: 14px;
+ }
+ #fotspan{
+   color: gray;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ #aaa{
+   text-decoration: none;
+   color: white;
  }
  
  #fotcolor{
@@ -483,7 +617,12 @@ margin: 0;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   
+   min-height: 250px;
+ }
+ #p22{
+   font-size: 13px;
+   color: #fff;
+   padding: 10px;
  }
  #himg{
    width: 200px;
@@ -518,11 +657,130 @@ margin: 0;
 #arownext:hover {
   box-shadow: 0 0 3px 3px rgba(20, 23, 28, 0.1), 0 3px 3px 0 rgba(20, 23, 28, 0.1);
 }
+#bbbton{
+  width: 25%;
+}
 
+#proftext1{
+  font-size: 20px;
+}
+#copyfot{
+  width:30%;
+}
+#watsapicon{
+  font-size: 20px;
+}
+#butonbading{
+  /* padding-bottom: 5%; */
+}
  @media (max-width: 575.98px) { 
+   #imgnew{
+     height: 60vw;
+   }
+   #hovercol{
+     padding-bottom: 3%;
+   }
+  #butonbading{
+    padding-bottom: 2%;
+  }
+   #fontvision{
+     font-size: 10px;
+   }
+   #divcolss{
+     border-right: none;
+   }
+   #watsapicon{
+     font-size: 10px;
+   }
+   #bbbton{
+     width: 35%;
+   }
+   #fotdiv{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   #ssssss{
+     padding-top: 15px;
+   }
+   #p9{
+     padding-top: 5px;
+     width: 100%;
+     
+   }
+   #h3copy{
+     font-size: 20px;
+   }
+   #h3copy3{
+    font-size: 20px;
+    padding-top: 10px;
+    width: 100%;
+  }
+   #ffffff{
+     display: flex;
+     flex-direction: column-reverse;
+
+   }
+#ffffff1{
+  font-size: 8px;
+  display: flex;
+  flex-direction: column;
+}
+   #p22{
+     font-size: 12px;
+   }
+   #colmeda1{
+     padding-bottom: 10px;
+   }
+  #box{
+    height: 30vw;
+    /* padding-bottom: 10px; */
+  }
+   #cont{
+     font-size: 5px;
+   }
+   #box img{
+    height: 30vw;
+    /* padding-bottom: 10px; */
+   }
+  #ooimage{
+    height: 20px;
+  }
+   #p2{
+     font-size: 16px;
+     padding: 15px;
+   }
+   #proftext1{
+     font-size: 10px;
+   }
+   #why{
+     font-size: 12px;
+     margin-left: 10px;
+   }
+   #p13 {
+     font-size: 10px;
+   }
+  #navlogo{
+    height: 30px;
+  }
+  #col1{
+    padding-left: 20px;
+   }
+   #dd{
+     font-size: 25px;
+   }
+  #logcolor{
+    background-color: rgb(243, 243, 243);
+    /* height: 80px; */
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   #contactrow2{
+     display: none;
+   }
   #ww{
-  
-  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -551,9 +809,82 @@ margin: 0;
 }
  }
  @media (min-width: 576px) and (max-width: 767.98px) { 
+  #imgnew{
+    height: 55vw;
+  }
+  #hovercol{
+    padding-bottom: 3%;
+  }
+  #butonbading{
+    padding-bottom: 2%;
+  }
+  #divcolss{
+    border-right: none;
+  }
+  #watsapicon{
+    font-size: 10px;
+  }
+  #fotdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   #copyfot{
+     width:40%;
+   }
+#ffffff1{
+  font-size: 10px;
+}
+  #colmeda1{
+    padding-bottom: 10px;
+  }
+  #box{
+    height: 30vw;
+  }
+   #cont{
+     font-size: 12px;
+   }
+   #box img{
+    height: 30vw;
+   }
+  #ooimage{
+    height: 20px;
+  }
+  #p2{
+    font-size: 16px;
+    padding: 15px;
+  }
+  #proftext1{
+    font-size: 12px;
+  }
+  #why{
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  #p13 {
+    font-size: 12px;
+  }
+  #navlogo{
+    height: 30px;
+  }
+  #col1{
+    padding-left: 25px;
+   }
+  #dd{
+    font-size: 25px;
+  }
+  #logcolor{
+    background-color: rgb(243, 243, 243);
+    /* height: 80px; */
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #contactrow2{
+    display: none;
+  }
   #ww{
-  
-  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -573,12 +904,67 @@ margin: 0;
     width: 90%;
   }
  }
+ a{
+   color:#1D72A9;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 26px;
+ }
  .active{
-   color: red;
+   color: #CA5152;
    text-decoration: none;
  }
+ a:hover{
+  color:#CA5152;
+  text-decoration: none;
+}
 
  @media (min-width: 768px) and (max-width: 991.98px) { 
+  #butonbading{
+    padding-bottom: 2%;
+  }
+  #divcolss{
+    border-right: none;
+  }
+  #copyfot{
+    width:40%;
+  }
+  #ffffff1{
+    font-size: 10px;
+  }
+  #colmeda1{
+    padding-bottom: 10px;
+  }
+   #p2{
+    padding: 15px;
+   }
+   #cont{
+    font-size: 12px;
+  }
+  #why{
+   
+    margin-left: 10px;
+  }
+  #navcompone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  #logcolor{
+    background-color: rgb(243, 243, 243);
+    /* height: 80px; */
+    width: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   #contactrow3{
+     display: none;
+   }
  
   #ww{
   
@@ -591,4 +977,32 @@ margin: 0;
   #area{
     width: 90%;
   }
+  #col1{
+    padding-left: 30px;
+   }
  }
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+  #butonbading{
+    padding-bottom: 2%;
+  }
+  #divcolss{
+    border-right: none;
+  }
+  #contactrow3{
+    display: none;
+
+  }
+  #col1{
+    padding-left: 40px;
+   }
+#navcompone{
+  width: 30%;
+}
+
+
+  }
+  @media (min-width: 1200px) { 
+    #contactrow3{
+      display: none;
+    }
+   }

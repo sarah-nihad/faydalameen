@@ -7,14 +7,14 @@ class Styl1 extends Component{
         return(
             <div   id='new1'>
         <Row  style={{marginRight:0}} id='rowcar'>
-            <Col xl={6} id='col1'>
-                <p id='dd'>DRIVE IN STYLE</p>
-            <p id='p2'>Mauris fermeum dictum mag
-Mauris fermeum dictum magna.
- Sed loreet aliquam leote llus dolor dapibus eget elementum vel curs elfend elit.
-  Aenean aucto. wisi et urna. Aliqat volutpatuisac turpis. Integer rutru.</p>
+            <Col lg={6} id='col1' style={{paddingRight:'0px'}}>
+                <p id='dd'> Completed Works  </p>
+            <p id='p2'> The company has done several different works including custom clearance and transportation for all
+Iraqi provinces through the clearance and transport of goods for trade and local companies in
+cooperation with local and foreign carriers.
+            </p>
             </Col>
-            <Col xl={6}> nnnnnnnnnnnn</Col>
+            <Col xl={6}> </Col>
         </Row>
         <Row style={{marginRight:0}} >
             <Col>
