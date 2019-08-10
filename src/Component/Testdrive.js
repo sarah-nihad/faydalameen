@@ -36,10 +36,6 @@ class Testdrive extends Component{
 </Col>
 </Row>
 
-{/* <Row><Col xs={4}><div id='section'></div></Col>
-<Col xs={4}><div id='section1'></div> </Col>
-<Col xs={4}><div id='section2'></div> </Col>
-</Row> */}
 
   
 

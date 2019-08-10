@@ -130,31 +130,7 @@ transactions that serve its purposes and the activity.
 
                                 <Col xs={12} style={{ width: '100%' }}>
 
-                                    {/* <div style={{ width: '100%',  display: 'flex', margin: '5px', alignItems: 'center' }} id='proftext1'  >
-                                    <div style={{ paddingRight: '10px' }}>
-                                        <img src={require('../img/circle.png')} style={{ height: '15px' }} alt='img' />
-                                    </div>
-                                مقاول يملك جميع أسهم الشركة وهو المدير المفوض للشركة
-        </div>
-                                <div style={{ width: '100%', display: 'flex', margin: '5px' }} id='proftext1'   >
-                                    <div style={{ paddingRight: '10px' }}>
-                                        <img src={require('../img/circle.png')} style={{ height: '15px' }} alt='img' />
-                                    </div>
-
-                                    حصلت على شهادة ممارسة المهنة والصادرة من اتحاد الناقلين العراقيين بالإضافة هوية عضوية اتحاد الناقلين العراقيين المركز العام.
-        </div>
-                                <div style={{ width: '100%', display: 'flex', margin: '5px' }} id='proftext1'   >
-                                    <div style={{ paddingRight: '10px' }}>
-                                        <img src={require('../img/circle.png')} style={{ height: '15px' }} alt='img' />
-                                    </div>
-                                    حصلت الشركة على (الدرجة الأولى) في اختصاص النقل العام حسب هوية اتحاد الناقليـــــــــن العراقيين 1735 في 6/12/2009 </div>
-                                <div style={{ width: '100%', display: 'flex', margin: '5px' }}  id='proftext1'  >
-                                    <div style={{ paddingRight: '10px' }}>
-                                        <img src={require('../img/circle.png')} style={{ height: '15px' }} alt='img' />
-                                    </div>
-                                    الانتساب الى غرفة تجارة البصرة بالاختصاص (تجارة عامة ونقل عام) بالرقم 20774 فـــــي
-                            25 / 4 /2010
-</div> */}
+                                  
 
 
 
@@ -232,8 +208,6 @@ necessary.
                             <Row style={{ marginRight: 0 }}>   <h3 id='why'>Official classification of the company </h3></Row>
 
 
-
-
                             <Row style={{ marginRight: 0, marginTop: '2%', paddingBottom: '5%' }} id='rowabout1' >
                                 <Col xs={12} style={{ width: '100%' }}>
 
@@ -275,8 +249,6 @@ necessary.
                                              transportation) numbered (20774) on 25/4/2010.
                                                   </div>
 
-
-
                                     </div>
 
                                 </Col>
@@ -287,8 +259,18 @@ necessary.
 
                     </ScrollAnimation>
                 </Container>
+
+
+                <Container>
+                    <ScrollAnimation animateIn='fadeInUp' animationInDelay='1000'  >
+
+                        <div style={{
+                            display: 'flex', alignItems: 'center', justifyContent: 'center'
+                            , flexDirection: 'column', width: '100%', margin: 0, padding: 0
+                        }} >
+
                  <Row id='rroo' style={{ marginRight: '0px', width: '90%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-    <Col xl={4} id='colomnservices1'   >
+    <Col xl={4} id='colomnservices1'>
 <div  id='divcolss' >
 <div style={{padding:'10px'}} > <img src={require('../img/value.png')} style={{ height: '40px' }}  alt='img' />   </div>
         <p style={{ fontSize:'22px',fontWeight:'500' }}  >Vision</p>
@@ -325,6 +307,11 @@ transfer of the year of all kinds and delivery of goods to our customers.</p>
 
 
 </Row> 
+
+</div>
+
+</ScrollAnimation>
+</Container>
             </div>
         )
     }

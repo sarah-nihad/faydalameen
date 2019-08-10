@@ -143,21 +143,12 @@ login(){
           <Row style={{ marginRight: 0 }} id='sss1'>
             <Col>
               <div id='s1s1'>
-                <p style={{fontSize:'26px',fontWeight:'500',lineHeight:'30px'}}>For More Inquere Please Send as email:</p>
+                <p style={{fontSize:'26px',fontWeight:'500',lineHeight:'30px'}}>For More Inquiry Please Send as email:</p>
               
               </div>
             </Col>
           </Row>
         </div>
-
-
-
-
-
-
-
-
-
 
         <div id='sss'>
       

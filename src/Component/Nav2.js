@@ -37,7 +37,7 @@ class Nav2 extends Component {
         <Navbar expand="lg" id="navmain">
 
 
-          <Navbar.Brand href="/" id='logcolor'  ><img src={require('../img/log1.png')} id='navlogo' alt='img' /></Navbar.Brand>
+          <Navbar.Brand href="/" id='logcolor'  ><img src={require('../img/lll.png')} id='navlogo' alt='img' /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
