@@ -59,16 +59,6 @@ class Nav2 extends Component {
         </Navbar>
 
 
-
-
-
-
-
-
-
-
-
-
       </div>
     );
   }

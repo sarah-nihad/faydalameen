@@ -32,25 +32,23 @@ class Slidecomp extends Component {
                     itemWidth={190}
                   >
                  <div id='imageSliderComp1' >
-                      <img src={require('../img/sl1.png')} alt='img' id='imageSliderComp' />
+                      <img src={require('../img/k1.gif')} alt='img' id='imageSliderComp' />
                     </div>
                     <div id='imageSliderComp1' >
-                        <img src={require('../img/sl2.png')} alt='img' id='imageSliderComp' />
+                        <img src={require('../img/k2.gif')} alt='img' id='imageSliderComp' />
+                      </div>
+                
+                      <div id='imageSliderComp1' >
+                        <img src={require('../img/k3.gif')} alt='img' id='imageSliderComp' />
                       </div>
                       <div id='imageSliderComp1' >
-                        <img src={require('../img/sl3.png')} alt='img' id='imageSliderComp' />
+                        <img src={require('../img/k4.gif')} alt='img' id='imageSliderComp' />
                       </div>
                       <div id='imageSliderComp1' >
-                        <img src={require('../img/sl4.png')} alt='img' id='imageSliderComp' />
+                        <img src={require('../img/k5.gif')} alt='img' id='imageSliderComp' />
                       </div>
                       <div id='imageSliderComp1' >
-                        <img src={require('../img/sl6.png')} alt='img' id='imageSliderComp' />
-                      </div>
-                      <div id='imageSliderComp1' >
-                        <img src={require('../img/sl7.png')} alt='img' id='imageSliderComp' />
-                      </div>
-                      <div id='imageSliderComp1' >
-                        <img src={require('../img/sl8.jpg')} alt='img' id='imageSliderComp' />
+                        <img src={require('../img/k6.gif')} alt='img' id='imageSliderComp' />
                       </div>
 
                   </Carousel>
@@ -73,25 +71,23 @@ class Slidecomp extends Component {
                     
                     >
                    <div id='imageSliderComp1' >
-                      <img src={require('../img/sl1.png')} alt='img' id='imageSliderComp' />
+                      <img src={require('../img/k1.gif')} alt='img' id='imageSliderComp' />
                     </div>
                     <div id='imageSliderComp1' >
-                        <img src={require('../img/sl2.png')} alt='img' id='imageSliderComp' />
+                        <img src={require('../img/k2.gif')} alt='img' id='imageSliderComp' />
                       </div>
                       <div id='imageSliderComp1' >
-                        <img src={require('../img/sl3.png')} alt='img' id='imageSliderComp' />
+                        <img src={require('../img/k3.gif')} alt='img' id='imageSliderComp' />
                       </div>
                       <div id='imageSliderComp1' >
-                        <img src={require('../img/sl4.png')} alt='img' id='imageSliderComp' />
+                        <img src={require('../img/k4.gif')} alt='img' id='imageSliderComp' />
+                      </div>
+                    
+                      <div id='imageSliderComp1' >
+                        <img src={require('../img/k5.gif')} alt='img' id='imageSliderComp' />
                       </div>
                       <div id='imageSliderComp1' >
-                        <img src={require('../img/sl6.png')} alt='img' id='imageSliderComp' />
-                      </div>
-                      <div id='imageSliderComp1' >
-                        <img src={require('../img/sl7.png')} alt='img' id='imageSliderComp' />
-                      </div>
-                      <div id='imageSliderComp1' >
-                        <img src={require('../img/sl8.jpg')} alt='img' id='imageSliderComp' />
+                        <img src={require('../img/k6.gif')} alt='img' id='imageSliderComp' />
                       </div>
                      
                     </Carousel>
