@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Carousel from '@brainhubeu/react-carousel';
+import Carousel  from '@brainhubeu/react-carousel';
 import Media from "react-media";
 import '@brainhubeu/react-carousel/lib/style.css';
 
@@ -68,7 +68,9 @@ class Slidecomp extends Component {
                       clickToChange
                      
                       infinite={true}
-                    
+                      // arrowLeft={<div className="icon-example" name="arrow-left" />}
+                      // arrowRight={<div className="icon-example" name="arrow-right" />}
+                      addArrowClickHandler
                     >
                    <div id='imageSliderComp1' >
                       <img src={require('../img/k1.gif')} alt='img' id='imageSliderComp' />

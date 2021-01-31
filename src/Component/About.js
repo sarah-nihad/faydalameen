@@ -19,16 +19,16 @@ class About extends Component {
 
                             <Row style={{ marginRight: 0 }} id='rowabout' >
 
-                                <p id='p13'style={{textAlign:'left'}}>
-                                Fayd Al-Ameen Co. for General Transportation is one of the modern companies, an extension of the
-work of contractors in the business of transport. The company aims to contribute to develop the
-national economy and the Iraqi expertise in the business of general transport by investing capital in the
-business of general transport and contributing to revitalize various types of transport according to
-national development plans. Carrying out the transport of materials and goods of all kinds and
-petroleum products all inside and outside Iraq and from and to Iraq, and do all related to the work of
-loading, unloading and storage and acceptance of undertakings. Taking into account the provisions of
-the Law of Transport in force and the instructions in force and the Law of the Central Bank of Iraq and
-the instructions issued thereunder 
+                                <p id='p13' style={{ textAlign: 'left' }}>
+                                    Fayd Al-Ameen Co. for General Transportation is one of the modern companies, an extension of the
+                                    work of contractors in the business of transport. The company aims to contribute to develop the
+                                    national economy and the Iraqi expertise in the business of general transport by investing capital in the
+                                    business of general transport and contributing to revitalize various types of transport according to
+                                    national development plans. Carrying out the transport of materials and goods of all kinds and
+                                    petroleum products all inside and outside Iraq and from and to Iraq, and do all related to the work of
+                                    loading, unloading and storage and acceptance of undertakings. Taking into account the provisions of
+                                    the Law of Transport in force and the instructions in force and the Law of the Central Bank of Iraq and
+                                    the instructions issued thereunder
 </p>
                                 <Col xs={12}  ></Col>
                             </Row>
@@ -88,10 +88,10 @@ all actions that it deems appropriate to serve and achieve the objectives of the
                                             </div>
 
                                             import and purchase of machinery, equipment and various materials that company deems appropriate
-to achieve the company's activity. 
+to achieve the company's activity.
         </div>
 
-        <div style={{ minHeight: '60px', display: 'flex' }}   >
+                                        <div style={{ minHeight: '60px', display: 'flex' }}   >
                                             <div style={{ paddingRight: '10px' }}>
                                                 <img src={require('../img/oo.png')} id='ooimage' alt='img' />
                                             </div>
@@ -100,9 +100,9 @@ work, open credit and current accounts with banks, and having the right to depos
 establish and confirm all commercial papers, accept documentary and non-documentary transfers as
 well as cheques, bills of lading, warehouse documents, request banking facilities and perform all
 transactions that serve its purposes and the activity.
-                    
+
         </div>
-                                     
+
                                     </div>
 
                                 </Col>
@@ -130,7 +130,7 @@ transactions that serve its purposes and the activity.
 
                                 <Col xs={12} style={{ width: '100%' }}>
 
-                                  
+
 
 
 
@@ -269,49 +269,49 @@ necessary.
                             , flexDirection: 'column', width: '100%', margin: 0, padding: 0
                         }} >
 
-                 <Row id='rroo' style={{ marginRight: '0px', width: '90%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-    <Col xl={4} id='colomnservices1'>
-<div  id='divcolss' >
-<div style={{padding:'10px'}} > <img src={require('../img/value.png')} style={{ height: '40px' }}  alt='img' />   </div>
-        <p style={{ fontSize:'22px',fontWeight:'500' }}  >Vision</p>
-        <p style={{padding:'10px'}} id='fontvision'   >
-            Our vision is to become the best and most efficient company in the services we provide from the
+                            <Row id='rroo' style={{ marginRight: '0px', width: '90%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                <Col xl={4} id='colomnservices1'>
+                                    <div id='divcolss' >
+                                        <div style={{ padding: '10px' }} > <img src={require('../img/value.png')} style={{ height: '40px' }} alt='img' />   </div>
+                                        <p style={{ fontSize: '22px', fontWeight: '500' }}  >Vision</p>
+                                        <p style={{ padding: '10px' }} id='fontvision'   >
+                                            Our vision is to become the best and most efficient company in the services we provide from the
 transfer of the year of all kinds and delivery of goods to our customers.</p>
-</div>
+                                    </div>
 
 
-    </Col>
+                                </Col>
 
-    <Col xl={4} id='colomnservices1' >
-    <div  id='divcolss'>
-    <div style={{padding:'10px'}} > <img src={require('../img/reliability.png')} style={{ height: '40px' }}  alt='img' />   </div>
-        <p style={{ fontSize:'22px',fontWeight:'500'}} id='butonbading' >values </p>
-        <p id='fontvision' style={{padding:'10px'}} >Ambition, efficiency, transparency, perseverance.</p>
-        <p>  </p>
-     <p></p>
-     <p></p>
-    
-    </div>
-    </Col>
-    <Col xl={4} id='colomnservices12' >
-  
-    <div style={{padding:'10px'}}  > <img src={require('../img/badge.png')} style={{ height: '40px' }}  alt='img'  />   </div>
-        <p style={{fontSize:'22px',fontWeight:'500' }} id='butonbading' >Emblem</p>
-        <p id='fontvision' style={{padding:'10px'}}  > Full confidence, high quality, safety.</p>
-  <p>  </p>
-  <p>  </p>
-  <p>  </p>
-  <p></p>
-    
-    </Col>
+                                <Col xl={4} id='colomnservices1' >
+                                    <div id='divcolss'>
+                                        <div style={{ padding: '10px' }} > <img src={require('../img/reliability.png')} style={{ height: '40px' }} alt='img' />   </div>
+                                        <p style={{ fontSize: '22px', fontWeight: '500' }} id='butonbading' >values </p>
+                                        <p id='fontvision' style={{ padding: '10px' }} >Ambition, efficiency, transparency, perseverance.</p>
+                                        <p>  </p>
+                                        <p></p>
+                                        <p></p>
+
+                                    </div>
+                                </Col>
+                                <Col xl={4} id='colomnservices12' >
+
+                                    <div style={{ padding: '10px' }}  > <img src={require('../img/badge.png')} style={{ height: '40px' }} alt='img' />   </div>
+                                    <p style={{ fontSize: '22px', fontWeight: '500' }} id='butonbading' >Emblem</p>
+                                    <p id='fontvision' style={{ padding: '10px' }}  > Full confidence, high quality, safety.</p>
+                                    <p>  </p>
+                                    <p>  </p>
+                                    <p>  </p>
+                                    <p></p>
+
+                                </Col>
 
 
-</Row> 
+                            </Row>
 
-</div>
+                        </div>
 
-</ScrollAnimation>
-</Container>
+                    </ScrollAnimation>
+                </Container>
             </div>
         )
     }
